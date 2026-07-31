@@ -27,7 +27,7 @@ root_agent = LlmAgent(
     - Respond ONLY with valid JSON matching this format:
 
     {
-    "product_name": "product name here",
+    "product_name": "One Plus 11",
     "price": 999.99,
     "storage": "256GB",
     "color": "Space Black"
