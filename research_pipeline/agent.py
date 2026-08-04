@@ -62,11 +62,7 @@ editor = LlmAgent(
 
 )
 
-
-
 root_agent = SequentialAgent(
     name='article_pipeline',
     sub_agents=[researcher, writer, editor]
 )
-
-
